@@ -2,12 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# API Part
-### Order of commands to run the API part of the app:
-1.In your terminal, navigate to the api directory.\
-2.Run `npm install` to install all dependencies.\
-3.Run `npm start` to start the app.
-
 # Client Part
 ### Order of commands to run the Client part of the app:
 1.In another terminal, navigate to the client directory.\
@@ -15,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3.Run `npm start` to start the app.
 
 Then you can open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-You  should  see  "Welcome to React" and at the bottom "API is working properly"
 
 ## Available Scripts
 
