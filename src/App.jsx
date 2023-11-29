@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LoginForm from './views/LoginForm';
 import Home from './views/Home'; // Import your Home component
-import './App.css';
+import '/@/App.css';
 
 class App extends Component {
     constructor(props) {

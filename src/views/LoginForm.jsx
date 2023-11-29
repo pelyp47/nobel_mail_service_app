@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import {Card, Form, Button, Container, Image, InputGroup, Row, Col, CardBody} from 'react-bootstrap';
 import {Icon} from '@iconify/react';
-import eyeOffFill from '@iconify/icons-eva/eye-off-fill';
-import eyeFill from '@iconify/icons-eva/eye-fill';
-import Logo from '../Nobel_logo.png';
+import eyeOffFill from '@iconify-icons/eva/eye-off-fill';
+import eyeFill from '@iconify-icons/eva/eye-fill';
+import Logo from '/Nobel_logo.png';
 
 
 function FloatingLabelInput({label, type, value, onChange, children, id}) {
