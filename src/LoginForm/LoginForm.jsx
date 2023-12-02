@@ -4,6 +4,7 @@ import {Icon} from '@iconify/react';
 import eyeOffFill from '@iconify-icons/eva/eye-off-fill';
 import eyeFill from '@iconify-icons/eva/eye-fill';
 import Logo from '/Nobel_logo.png';
+import '/@/LoginForm/LoginForm.css';
 
 
 function FloatingLabelInput({label, type, value, onChange, children, id}) {

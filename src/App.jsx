@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import LoginForm from './views/LoginForm';
-import Home from './views/Home'; // Import your Home component
+import { RouterProvider } from 'react-router-dom';
+import router from '/@/Routes';
+import { Provider } from 'react-redux';
+import store from '/@/GlobalStates/store';
 import '/@/App.css';
 
 class App extends Component {
@@ -17,13 +19,9 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                {!this.state.isUserLoggedIn ? (
-                    <LoginForm onLoginSuccess={this.handleLoginSuccess} />
-                ) : (
-                    <Home /> // Render Home component or other authenticated content
-                )}
-            </div>
+            <Provider store={store}>
+                <RouterProvider router={router}/>
+            </Provider>
         );
     }
 }
