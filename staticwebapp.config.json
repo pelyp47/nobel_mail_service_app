@@ -2,11 +2,7 @@
     "routes": [
       {
         "route": "/*.html",
-        "rewrite": "/index.html"
-      },
-      {
-        "route": "/home/*.html",
-        "rewrite": "../index.html"
+        "redirect": "/index.html"
       }
     ],
     "navigationFallback": {
