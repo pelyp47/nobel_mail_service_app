@@ -3,6 +3,10 @@
       {
         "route": "/*.html",
         "rewrite": "/index.html"
+      },
+      {
+        "route": "/**/*.html",
+        "rewrite": "/index.html"
       }
     ],
     "navigationFallback": {
