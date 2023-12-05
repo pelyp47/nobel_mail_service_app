@@ -1,5 +1,19 @@
 {
-    "navigationFallback": {
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  },
+  "routes": [
+    {
+      "route": "/",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/*",
       "rewrite": "/index.html"
     }
+  ],
+  "globalHeaders": {
+    "content-security-policy": "default-src 'self'"
+  }
 }
