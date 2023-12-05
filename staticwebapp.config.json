@@ -1,18 +1,5 @@
 {
-  "routes": [
-    {
-      "route": "/*",
+    "navigationFallback": {
       "rewrite": "/index.html"
     }
-  ],
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/assets/*", "/static/*"]
-  },
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/index.html",
-      "statusCode": 200
-    }
-  }
 }
