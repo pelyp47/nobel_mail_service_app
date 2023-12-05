@@ -13,7 +13,9 @@ export default defineConfig({
     plugins: [
         react()
     ],
-    // rollupOptions: {
-    //     external: ["react", "react-router", "react-router-dom", "react-redux"]
-    // 
+    rollupOutputOptions: {
+        entryFileNames: `[name].js`,
+        chunkFileNames: `[name].js`,
+        assetFileNames: `[name].[ext]`
+    }
 })
