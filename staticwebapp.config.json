@@ -6,7 +6,7 @@
       },
       {
         "route": "/home/*.html",
-        "rewrite": "/index.html"
+        "rewrite": "../index.html"
       }
     ],
     "navigationFallback": {
