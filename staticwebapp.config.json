@@ -3,6 +3,14 @@
       {
         "route": "/*.html",
         "redirect": "/index.html"
+      },
+      {
+        "route": "/index*.js",
+        "redirect": "/assets/index.js"
+      },
+      {
+        "route": "/index*.css",
+        "redirect": "/assets/index.css"
       }
     ],
     "navigationFallback": {
