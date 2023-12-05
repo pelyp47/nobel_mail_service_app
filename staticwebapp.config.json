@@ -5,11 +5,11 @@
         "redirect": "/index.html"
       },
       {
-        "route": "/index*.js",
+        "route": "/*.js",
         "redirect": "/assets/index.js"
       },
       {
-        "route": "/index*.css",
+        "route": "/*.css",
         "redirect": "/assets/index.css"
       }
     ],
