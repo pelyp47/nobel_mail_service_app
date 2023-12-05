@@ -6,11 +6,11 @@
       },
       {
         "route": "/*.js",
-        "redirect": "/assets/index.js"
+        "redirect": "/app/assets/index.js"
       },
       {
         "route": "/*.css",
-        "redirect": "/assets/index.css"
+        "redirect": "/app/assets/index.css"
       }
     ],
     "navigationFallback": {
